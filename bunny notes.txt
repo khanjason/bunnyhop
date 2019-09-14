@@ -1,0 +1,24 @@
+set up
+
+bunny stationary but altering between feet moving
+ground stationary but will look like moving treadmill
+background animated colour changing
+fences/posts will move towards bunny
+as bunny jumps the feet go back
+if bunny contact with fence, game over
+otherwise each time a fence goes off map or at certain x coordinate, add a point
+point display is 3 didgits
+make each pixel number 0-9
+split the score and find what each digit equals and update display
+use it as a field
+for the bunny
+bunny will be restricted to one spot, cannot move in x direction
+only y by pressing space bar
+to model falling use
+speed=5
+speed x 9.8 x deltatime
+with going up use
+speedx -9.8x deltatime
+game ends when score =999
+or if player dies
+
